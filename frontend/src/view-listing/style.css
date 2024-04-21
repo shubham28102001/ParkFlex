@@ -1,0 +1,12 @@
+/* Author: Shubham Patel */
+.mapBox {
+    height: 300px;
+    width: 150%;
+    z-index: 1;
+}
+
+@media (max-width: 639px) {
+    .mapBox {
+        width: 100%;
+    }
+}
